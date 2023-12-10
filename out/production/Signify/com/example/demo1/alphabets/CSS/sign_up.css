@@ -1,0 +1,55 @@
+.text-field-with-gradient{
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-color: linear-gradient(to left, #020024, #090f79,#00d4ff);
+}
+
+
+.background
+{
+    -fx-background-image: url('file:D:/demo1/src/main/resources/com/example/demo1/Images/sign_up.jpg');
+
+   
+
+    -fx-background-repeat: no-repeat;
+}
+
+
+.styledAnchorPaneviolet {
+   -fx-background-color: rgba(138, 43, 226, 0.1);
+    -fx-background-radius: 10;
+      -fx-border-radius: 10;
+
+    -fx-border-color: #0074cc;
+    -fx-border-width: 2px;
+}
+
+
+
+.button_log_in {
+    -fx-background-radius: 15;
+    -fx-background-color: #FFAA5E;
+}
+
+.button_log_in:hover {
+
+       -fx-background-color: derive(#FFAA5E, -30%);
+}
+
+
+.colorfulButton {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: linear-gradient(to left, #020024, #090f79,#00d4ff);
+    -fx-border-color: linear-gradient(to left, #020024, #090f79,#00d4ff);
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+}
+
+
+.colorfulButton:hover {
+    -fx-background-color: linear-gradient(to left, #020024, #090f79, #00d4ff, #00d4ff);
+    -fx-text-fill: white;
+}

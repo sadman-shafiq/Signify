@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.signup">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1080.0" layoutX="-64.0" layoutY="1.0" onMouseClicked="#switchtologin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/su.png" />
+         </image>
+      </ImageView>
+      <Group layoutX="83.0" layoutY="38.0">
+         <children>
+            <Label layoutX="241.0" layoutY="38.0" text="Welcome to Signify">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="29.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordfield" layoutX="242.0" layoutY="209.0" prefHeight="25.0" prefWidth="240.0" promptText="Password" styleClass="text-field-with-gradient" stylesheets="@alphabets/CSS/sign_up.css" />
+            <TextField fx:id="email_field" layoutX="242.0" layoutY="284.0" prefHeight="25.0" prefWidth="241.0" promptText="Email" styleClass="text-field-with-gradient" stylesheets="@alphabets/CSS/sign_up.css" />
+            <PasswordField layoutX="242.0" layoutY="245.0" prefHeight="25.0" prefWidth="241.0" promptText="Confirm Password" styleClass="text-field-with-gradient" stylesheets="@alphabets/CSS/sign_up.css" />
+            <DatePicker fx:id="dobField" layoutX="242.0" layoutY="327.0" prefHeight="25.0" prefWidth="158.0" promptText="Date of Birth" stylesheets="@alphabets/CSS/sign_up.css" />
+            <CheckBox layoutX="227.0" layoutY="418.0" mnemonicParsing="false" text="I accept Signify's Terms of Service and Privacy Policy" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </CheckBox>
+            <RadioButton fx:id="learnerRadioButton" layoutX="242.0" layoutY="385.0" mnemonicParsing="false" text="Learner" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="educatorRadioButton" layoutX="362.0" layoutY="384.0" mnemonicParsing="false" text="Educator" textFill="#fffefe">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="245.0" layoutY="361.0" text="I am a" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="full_namefield" layoutX="243.0" layoutY="138.0" prefHeight="25.0" prefWidth="241.0" promptText="Name" styleClass="text-field-with-gradient" stylesheets="@alphabets/CSS/sign_up.css" />
+         </children>
+      </Group>
+      <Button layoutX="361.0" layoutY="502.0" mnemonicParsing="false" onAction="#accountcreated" prefHeight="33.0" prefWidth="184.0" styleClass="colorfulButton" stylesheets="@alphabets/CSS/sign_up.css" text="CREATE ACCOUNT" />
+      <Label layoutX="305.0" layoutY="89.0" prefHeight="75.0" prefWidth="318.0" text="Let's create an account to get started">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="40.0" layoutX="12.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logos/back.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernamefield" layoutX="325.0" layoutY="211.0" prefHeight="25.0" prefWidth="241.0" promptText="User ID" styleClass="text-field-with-gradient" stylesheets="@alphabets/CSS/sign_up.css" />
+   </children>
+</AnchorPane>

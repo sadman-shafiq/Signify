@@ -1,0 +1,28 @@
+
+
+.styledAnchorPaneviolet {
+
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+    -fx-border-color:  linear-gradient(to left, #020024, #090f79,#00d4ff);
+    -fx-border-width: 2px;
+}
+
+.labelWithFont {
+    -fx-text-fill: linear-gradient(to left, #020024, #090f79, #00d4ff);
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+
+}
+
+
+.background
+{
+    -fx-background-image: url('file:D:/demo1/src/main/resources/com/example/demo1/Images/abstract.jpg');
+    //-fx-background-size: cover;
+
+    -fx-background-repeat: no-repeat;
+}
+
+

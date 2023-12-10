@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="510.0" prefWidth="880.0" styleClass="background" stylesheets="@alphabets/CSS/userprofile.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.UserProfileController">
+   <children>
+      <Label layoutX="364.0" layoutY="27.0" prefHeight="23.0" prefWidth="254.0" text="User Profile Details">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="294.0" layoutY="96.0" prefHeight="174.0" prefWidth="381.0" styleClass="styledAnchorPaneviolet" stylesheets="@alphabets/CSS/userprofile.css">
+         <children>
+            <Label layoutX="14.0" layoutY="76.0" prefHeight="17.0" prefWidth="109.0" text="User Name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="124.0" text="User Type">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="30.0" text="Name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="271.0" layoutY="147.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="271.0" layoutY="99.0" startX="-100.0" stroke="WHITE" />
+            <Label fx:id="fullNameLabel" layoutX="166.0" layoutY="27.0" prefHeight="23.0" prefWidth="170.0" styleClass="labelWithFont" stylesheets="@alphabets/CSS/userprofile.css" text="Full name" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="studentNameLabel" layoutX="169.0" layoutY="76.0" prefHeight="17.0" prefWidth="109.0" styleClass="labelWithFont" stylesheets="@alphabets/CSS/userprofile.css" text="Name" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="userType" layoutX="169.0" layoutY="124.0" prefHeight="17.0" prefWidth="109.0" styleClass="labelWithFont" stylesheets="@alphabets/CSS/userprofile.css" text="User" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="262.0" layoutY="53.0" startX="-100.0" stroke="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="427.0" layoutY="265.0" prefHeight="37.0" prefWidth="102.0" text="Contact">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="297.0" layoutY="314.0" prefHeight="157.0" prefWidth="379.0" styleClass="styledAnchorPaneviolet" stylesheets="@alphabets/CSS/userprofile.css">
+         <children>
+            <Label layoutX="14.0" layoutY="30.0" text="Email ID">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="256.0" layoutY="54.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="256.0" layoutY="122.0" startX="-100.0" stroke="WHITE" />
+            <Label layoutX="14.0" layoutY="99.0" prefHeight="23.0" prefWidth="149.0" text="Date of Birth">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateOfBirthLabel" layoutX="155.0" layoutY="99.0" prefHeight="23.0" prefWidth="201.0" styleClass="labelWithFont" stylesheets="@alphabets/CSS/userprofile.css" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" layoutX="152.0" layoutY="30.0" prefHeight="23.0" prefWidth="209.0" styleClass="labelWithFont" stylesheets="@alphabets/CSS/userprofile.css" text="Email ID" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="65.0" layoutY="81.0" prefHeight="159.0" prefWidth="149.0" styleClass="styledAnchorPaneviolet" stylesheets="@alphabets/CSS/userprofile.css">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="149.0" layoutX="3.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/7214445.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="17.0" layoutY="17.0" onMouseClicked="#switchtodashboard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logos/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="50.0" layoutX="628.0" layoutY="61.0" onMouseClicked="#switchtoEditProfile" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logos/edit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

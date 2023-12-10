@@ -1,0 +1,11 @@
+.selected-option {
+    -fx-effect: dropshadow(three-pass-box, deepskyblue, 10, 0, 0, 0);
+}
+
+.correct-answer {
+    -fx-effect: dropshadow(three-pass-box, limegreen, 10, 0, 0, 0);
+}
+
+.wrong-answer {
+    -fx-effect: dropshadow(three-pass-box, red, 10, 0, 0, 0);
+}

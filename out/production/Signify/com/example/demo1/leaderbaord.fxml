@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="880.0" style="-fx-background-color: #a3a1be;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.dashboard_controller">
+   <children>
+      <AnchorPane prefHeight="70.0" prefWidth="890.0" style="-fx-background-color: #20202d;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="55.0" layoutX="6.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/2023-10-03%2011.12.02.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="41.0" layoutY="112.0" mnemonicParsing="false" onAction="#switchtodashboard" text="Back" />
+      <TableView layoutX="342.0" layoutY="202.0" prefHeight="277.0" prefWidth="519.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="146.66671752929688" text="Time this week" />
+            <TableColumn prefWidth="146.66671752929688" text="XP earned" />
+            <TableColumn prefWidth="146.66671752929688" text="Assigment" />
+        </columns>
+      </TableView>
+      <Label layoutX="344.0" layoutY="166.0" prefHeight="36.0" prefWidth="253.0" text="Leaderboard">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets right="10.0" />
+   </padding>
+</AnchorPane>

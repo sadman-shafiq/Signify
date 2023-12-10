@@ -1,0 +1,14 @@
+.background {
+    -fx-background-image: url('file:D:/demo1/src/main/resources/com/example/demo1/Images/quiz.jpg');
+
+    //-fx-background-size: cover;
+
+}
+
+
+.labelWithFont {
+   -fx-text-fill: linear-gradient(to left, #020024, #090f79, #00d4ff);
+    -fx-font-family: "Arial";
+    -fx-font-size: 20px;
+
+ }

@@ -1,0 +1,7 @@
+.chart-pie {
+    -fx-pie-color: linear-gradient(to bottom, #4CAF50, #45a049), linear-gradient(to bottom, #FF5733, #FFD700); /* Gradient colors for slices */
+}
+
+.chart-pie:hover {
+    -fx-pie-color: linear-gradient(to bottom, #4CAF50, #45a049, #4CAF50), linear-gradient(to bottom, #FF5733, #FFD700, #FF5733); /* Enlarge and change gradient on hover */
+}

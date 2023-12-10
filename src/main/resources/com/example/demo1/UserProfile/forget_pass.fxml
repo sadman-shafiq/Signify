@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="880.0" style="-fx-background-color: #a3a1be;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.forgot_password">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background1" stylesheets="@alphabets/CSS/sign_up.css" BorderPane.alignment="CENTER">
+         <children>
+            <Group layoutX="51.0" layoutY="65.0" />
+            <ImageView fitHeight="191.0" fitWidth="200.0" layoutX="-6.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/signify_logo.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="234.0" layoutY="65.0" prefHeight="439.0" prefWidth="356.0" styleClass="background2" stylesheets="@alphabets/CSS/sign_up.css">
+               <children>
+                  <ImageView fitHeight="427.0" fitWidth="433.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="92.0" layoutY="377.0" mnemonicParsing="false" onAction="#sendmail" prefHeight="32.0" prefWidth="250.0" style="-fx-background-color: #4a4a59;" text="Continue" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="emailField" layoutX="73.0" layoutY="127.0" prefHeight="36.0" prefWidth="253.0" promptText="Enter your Email" />
+                  <Label layoutX="74.0" layoutY="14.0" prefHeight="62.0" prefWidth="308.0" text="Change Your Password" textFill="#20202d">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="74.0" layoutY="76.0" prefHeight="51.0" prefWidth="167.0" text="Email" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="74.0" layoutY="163.0" prefHeight="51.0" prefWidth="167.0" text="New Password" textFill="#eeeeee">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="usernameField" layoutX="73.0" layoutY="214.0" prefHeight="32.0" prefWidth="250.0" promptText="Type New Password" />
+                  <Label layoutX="74.0" layoutY="246.0" prefHeight="57.0" prefWidth="150.0" text="Confirm Password" textFill="#ebebee">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="passwordField" layoutX="73.0" layoutY="303.0" prefHeight="32.0" prefWidth="250.0" promptText="Confirm Your Password" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

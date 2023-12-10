@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="880.0" style="-fx-background-color: #ffffff2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.dashboard_controller">
+   <children>
+      <Label layoutX="95.0" layoutY="59.0" prefHeight="125.0" prefWidth="749.0" text="Which of these represents &quot;B&quot;?" textFill="#20202d">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="563.0" layoutY="289.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="239.0" text="Check Answer" textFill="#acabab" AnchorPane.bottomAnchor="197.66666666666669" />
+      <Label layoutX="51.0" prefHeight="131.0" prefWidth="185.0" text="Exercise" textFill="#2b8d24">
+         <font>
+            <Font name="Elephant" size="39.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="138.0" layoutY="158.99999999999994" prefHeight="259.0" prefWidth="217.0" AnchorPane.bottomAnchor="19.666666666666742">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/C.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="164.0" layoutX="150.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/2023-10-01%2018.52.15.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@std1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="177.0" fitWidth="135.0" layoutX="167.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/2023-10-01%2018.51.02.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

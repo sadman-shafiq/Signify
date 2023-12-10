@@ -1,0 +1,59 @@
+.attractiveButton {
+    -fx-background-color: linear-gradient(to left, #020024, #090f79,#00d4ff );
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+
+}
+
+
+.attractiveButton1 {
+    -fx-background-color: linear-gradient(to right, #2EB62C, #83D475 );
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+
+}
+.roundedbutton{
+     -fx-background-radius: 15;
+
+}
+
+#button_log_in {
+    -fx-background-radius: 15;
+    -fx-background-color: #4a4a59;
+}
+
+#button_log_in:hover {
+
+       -fx-background-color: derive(#4a4a59, -30%);
+}
+
+#create_account_button {
+    -fx-background-radius: 15;
+    -fx-background-color: #3d52f4;
+}
+
+
+#create_account_button:hover {
+
+       -fx-background-color: derive( #3d52f4, -30%);
+}
+
+
+.text-field-with-gradient{
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-color: linear-gradient(to left, #020024, #090f79,#00d4ff);
+}
+
+
+.attractiveButton:hover {
+    -fx-background-color: #00d4ff ;
+}
+.attractiveButton1:hover {
+    -fx-background-color: #83D475 ;
+}

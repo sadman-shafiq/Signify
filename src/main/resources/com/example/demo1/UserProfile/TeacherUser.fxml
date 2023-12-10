@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="510.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.TeacherUser">
+   <children>
+      <AnchorPane prefHeight="518.0" prefWidth="230.0" style="-fx-background-color: #a3a1be;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="261.0" layoutY="24.0" text="Profile Settings">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="164.0" fitWidth="158.0" layoutX="256.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/User.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="471.0" layoutY="89.0" prefHeight="174.0" prefWidth="381.0" style="-fx-background-color: #20244f;">
+         <children>
+            <Label layoutX="14.0" layoutY="76.0" prefHeight="17.0" prefWidth="109.0" text="UserName" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="124.0" text="Date of Birth" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="30.0" text="Name" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="266.0" layoutY="53.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="266.0" layoutY="99.0" startX="-100.0" stroke="WHITE" />
+            <DatePicker layoutX="169.0" layoutY="127.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="471.0" layoutY="47.0" prefHeight="37.0" prefWidth="102.0" text="Profile Details">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="485.0" layoutY="333.0" prefHeight="149.0" prefWidth="381.0" style="-fx-background-color: #20244f;">
+         <children>
+            <Label layoutX="14.0" layoutY="76.0" prefHeight="23.0" prefWidth="149.0" text="Mobile Number" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="30.0" text="Email ID" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="264.0" layoutY="41.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="266.0" layoutY="99.0" startX="-100.0" stroke="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="485.0" layoutY="290.0" prefHeight="37.0" prefWidth="102.0" text="Contact">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="250.0" layoutY="308.0" prefHeight="174.0" prefWidth="221.0" style="-fx-background-color: #20244f;">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="200.0" layoutX="14.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/icons8-teaching-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="200.0" layoutX="14.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/icons8-question-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="200.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alphabets/icons8-rating-50.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="42.0" text="Tutor rating" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="79.0" text="Question answer" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="129.0" text="Tutor Service" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="250.0" layoutY="267.0" prefHeight="37.0" prefWidth="102.0" text="Status">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
